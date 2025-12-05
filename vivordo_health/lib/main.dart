@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:vivordo_health/firebase_options.dart';
-import 'package:vivordo_health/src/pages/log_in_demo.dart' show LoginDemo;
 import 'package:firebase_core/firebase_core.dart';
+import 'package:vivordo_health/src/pages/home_demo.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       debugShowCheckedModeBanner: false,
-      home: LoginDemo(),
+      home: MyHomePage(title: "My home page"),
     );
   }
 }
