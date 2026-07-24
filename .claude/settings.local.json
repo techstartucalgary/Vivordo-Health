@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter analyze *)",
+      "Bash(firebase firestore:rules:get)",
+      "Bash(dart analyze *)",
+      "Bash(grep -rn *)",
+      "Bash(npx eslint *)",
+      "Bash(node --check index.js)",
+      "Bash(graphify query *)",
+      "Bash(ls docs *)",
+      "Bash(grep -rl \"analytics\" lib)",
+      "Bash(firebase projects:list)",
+      "Bash(flutter --version)",
+      "Bash(cd /home/kbanik3/Downloads/github/Vivordo/vivordo_health && grep -n \"platforms\" ../firebase.json -A 20 2>/dev/null; cat pubspec.yaml | grep -iE \"google_sign_in|sign_in_with_apple|flutter_facebook\")",
+      "Read(//home/kbanik3/Downloads/github/**)",
+      "Bash(python3 -c ' *)",
+      "Bash(git add *)"
+    ]
+  }
+}

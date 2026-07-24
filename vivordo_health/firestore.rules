@@ -1,0 +1,36 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ── User document + ALL subcollections ───────────────────────────────────
+    // Subcollections covered: metrics_daily, preferences, questionnaire_responses,
+    // insights, weekly_trends, insight_summaries, analytics_events.
+    // Only the owning user may read or write their own data.
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      match /{subcollection}/{document=**} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+
+    // ── AI batch tracking (written by Cloud Functions only) ──────────────────
+    // Spans multiple users per nightly batch, so it stays top-level rather
+    // than nested under a single user.
+    match /batch_jobs/{batchId} {
+      allow read: if request.auth != null;
+    }
+
+    // ── Bug reports (written by the app from the Profile screen) ──────────────
+    // Any signed-in user may submit a report. Reports are triaged via the
+    // Firebase console / Cloud Functions, so clients may not read or modify
+    // them — this keeps one user from seeing another's report. The new doc
+    // must be stamped with the submitter's own uid.
+    match /bug_reports/{reportId} {
+      allow create: if request.auth != null
+                    && request.resource.data.userId == request.auth.uid;
+      allow read, update, delete: if false;
+    }
+  }
+}

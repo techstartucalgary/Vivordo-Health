@@ -1,0 +1,232 @@
+{
+  "vivordo_health/lib/firebase_options.dart": {
+    "mtime": 1779485071.2657857,
+    "ast_hash": "9cd129472567a59fce834afb7eed65e5",
+    "semantic_hash": "9cd129472567a59fce834afb7eed65e5"
+  },
+  "vivordo_health/lib/main.dart": {
+    "mtime": 1781832282.6979718,
+    "ast_hash": "47b89b778a45a9d906b193b290511357",
+    "semantic_hash": "47b89b778a45a9d906b193b290511357"
+  },
+  "vivordo_health/lib/screens/dashboard_screen.dart": {
+    "mtime": 1781832067.2898898,
+    "ast_hash": "19756bbc889507e5c744b86285a865c0",
+    "semantic_hash": "19756bbc889507e5c744b86285a865c0"
+  },
+  "vivordo_health/lib/screens/goals_screen.dart": {
+    "mtime": 1779485071.2667856,
+    "ast_hash": "e2988ae1bccf9add6851453c116e08b0",
+    "semantic_hash": "e2988ae1bccf9add6851453c116e08b0"
+  },
+  "vivordo_health/lib/screens/home_screen.dart": {
+    "mtime": 1781901630.58429,
+    "ast_hash": "cf7b94626b92b52a3733b4f369c72559",
+    "semantic_hash": "cf7b94626b92b52a3733b4f369c72559"
+  },
+  "vivordo_health/lib/screens/login_screen.dart": {
+    "mtime": 1781832067.290918,
+    "ast_hash": "ad8db4cddc3944768c1069fa974f1d79",
+    "semantic_hash": "ad8db4cddc3944768c1069fa974f1d79"
+  },
+  "vivordo_health/lib/screens/main_navigation.dart": {
+    "mtime": 1781832062.3118703,
+    "ast_hash": "ee6035cf295e6bde4d72cfcfb65c9e5e",
+    "semantic_hash": "ee6035cf295e6bde4d72cfcfb65c9e5e"
+  },
+  "vivordo_health/lib/screens/onboarding_screen.dart": {
+    "mtime": 1781832282.6989717,
+    "ast_hash": "bd0d2e126099b1e3481953d6abd0a31b",
+    "semantic_hash": "bd0d2e126099b1e3481953d6abd0a31b"
+  },
+  "vivordo_health/lib/screens/panda_screen.dart": {
+    "mtime": 1782034868.013856,
+    "ast_hash": "8c9fe1124685f87a58f0887f0747a270",
+    "semantic_hash": "8c9fe1124685f87a58f0887f0747a270"
+  },
+  "vivordo_health/lib/screens/profile_screen.dart": {
+    "mtime": 1782036149.9450653,
+    "ast_hash": "3442479aa74cdb7da7d73a7b8074a4d9",
+    "semantic_hash": ""
+  },
+  "vivordo_health/lib/screens/scan_screen.dart": {
+    "mtime": 1781832067.2929182,
+    "ast_hash": "f6ce019a4b561f27f1588b4ba646e560",
+    "semantic_hash": "f6ce019a4b561f27f1588b4ba646e560"
+  },
+  "vivordo_health/lib/screens/signup_screen.dart": {
+    "mtime": 1781832067.2929182,
+    "ast_hash": "0a5e0b0f11d3edd41d2770bee3baa6f2",
+    "semantic_hash": "0a5e0b0f11d3edd41d2770bee3baa6f2"
+  },
+  "vivordo_health/lib/screens/welcome_beta_screen.dart": {
+    "mtime": 1781832067.2939181,
+    "ast_hash": "641e6fbbbc61de72c3b49be0a024bbb7",
+    "semantic_hash": "641e6fbbbc61de72c3b49be0a024bbb7"
+  },
+  "vivordo_health/lib/src/models/goal.dart": {
+    "mtime": 1779485071.2717857,
+    "ast_hash": "1b99ba5137dd76db509f55d70f9d3e31",
+    "semantic_hash": "1b99ba5137dd76db509f55d70f9d3e31"
+  },
+  "vivordo_health/lib/src/models/goal_model.dart": {
+    "mtime": 1779485071.2717857,
+    "ast_hash": "81a4a181a646cf47a3263df1ad99c332",
+    "semantic_hash": "81a4a181a646cf47a3263df1ad99c332"
+  },
+  "vivordo_health/lib/src/models/homeconfig.dart": {
+    "mtime": 1779485071.2717857,
+    "ast_hash": "3a9a54ec706c5d98eeff0575bff5c656",
+    "semantic_hash": "3a9a54ec706c5d98eeff0575bff5c656"
+  },
+  "vivordo_health/lib/src/models/insights.dart": {
+    "mtime": 1782034782.7641966,
+    "ast_hash": "adcb072cb6219034608f24c309b635ac",
+    "semantic_hash": "adcb072cb6219034608f24c309b635ac"
+  },
+  "vivordo_health/lib/src/models/metadata.dart": {
+    "mtime": 1779485071.272786,
+    "ast_hash": "c1b16700142290bb1980102e67d3bbe2",
+    "semantic_hash": "c1b16700142290bb1980102e67d3bbe2"
+  },
+  "vivordo_health/lib/src/models/metrics_daily.dart": {
+    "mtime": 1779485071.272786,
+    "ast_hash": "b535979c3ae378221fec62c4ceedf398",
+    "semantic_hash": "b535979c3ae378221fec62c4ceedf398"
+  },
+  "vivordo_health/lib/src/models/preferences.dart": {
+    "mtime": 1781832062.3148708,
+    "ast_hash": "88640297ec775c7f9a2ea298f6b49952",
+    "semantic_hash": "88640297ec775c7f9a2ea298f6b49952"
+  },
+  "vivordo_health/lib/src/models/questionnaire_response.dart": {
+    "mtime": 1779485071.273788,
+    "ast_hash": "f9e29e8063eab76b0f617ea9bcb284e5",
+    "semantic_hash": "f9e29e8063eab76b0f617ea9bcb284e5"
+  },
+  "vivordo_health/lib/src/models/user_model.dart": {
+    "mtime": 1781832067.294917,
+    "ast_hash": "d619d0070e0be9935e8a23fffe62e160",
+    "semantic_hash": "d619d0070e0be9935e8a23fffe62e160"
+  },
+  "vivordo_health/lib/src/pages/home_demo.dart": {
+    "mtime": 1779485071.273788,
+    "ast_hash": "7266ef76f698beb3b9d1dbb020579733",
+    "semantic_hash": "7266ef76f698beb3b9d1dbb020579733"
+  },
+  "vivordo_health/lib/src/pages/log_in_demo.dart": {
+    "mtime": 1782036158.213129,
+    "ast_hash": "d03f04e0a2026eba419af6f3b4ad94bd",
+    "semantic_hash": ""
+  },
+  "vivordo_health/lib/src/services/ai_service.dart": {
+    "mtime": 1782036062.539247,
+    "ast_hash": "7b6f497328181b601e8a77a9e093210b",
+    "semantic_hash": ""
+  },
+  "vivordo_health/lib/src/services/ai_service_factory.dart": {
+    "mtime": 1781832067.2959192,
+    "ast_hash": "8d0125774b55397fec81a62ef022af16",
+    "semantic_hash": "8d0125774b55397fec81a62ef022af16"
+  },
+  "vivordo_health/lib/src/services/auth_service.dart": {
+    "mtime": 1779485071.275786,
+    "ast_hash": "1180cc8e2aba06efa837fd456a6dd12f",
+    "semantic_hash": "1180cc8e2aba06efa837fd456a6dd12f"
+  },
+  "vivordo_health/lib/src/services/calendar_service.dart": {
+    "mtime": 1781901630.5852907,
+    "ast_hash": "fd5e1a73dca8fc3c925090feb820e6d2",
+    "semantic_hash": "fd5e1a73dca8fc3c925090feb820e6d2"
+  },
+  "vivordo_health/lib/src/services/claude_service.dart": {
+    "mtime": 1781916148.894533,
+    "ast_hash": "1722c146f294926a925cea121ac365c8",
+    "semantic_hash": "1722c146f294926a925cea121ac365c8"
+  },
+  "vivordo_health/lib/src/services/gemini_service.dart": {
+    "mtime": 1782036049.1620703,
+    "ast_hash": "0f81a6ca4e6aa2c4fd428b1ef2b2343a",
+    "semantic_hash": ""
+  },
+  "vivordo_health/lib/src/services/goal_service.dart": {
+    "mtime": 1779485071.275786,
+    "ast_hash": "9983c42a2450347987afb42c1e78244b",
+    "semantic_hash": "9983c42a2450347987afb42c1e78244b"
+  },
+  "vivordo_health/lib/src/services/health_service.dart": {
+    "mtime": 1781832067.297919,
+    "ast_hash": "8d98b46a6ee53e308099a6c6a00cdad8",
+    "semantic_hash": "8d98b46a6ee53e308099a6c6a00cdad8"
+  },
+  "vivordo_health/lib/src/services/insight_service.dart": {
+    "mtime": 1782034859.2478402,
+    "ast_hash": "371ca3189c0ca1bb898556e972d59e10",
+    "semantic_hash": "371ca3189c0ca1bb898556e972d59e10"
+  },
+  "vivordo_health/lib/src/services/metrics_service.dart": {
+    "mtime": 1782036125.085856,
+    "ast_hash": "2902a09b305db624bceb54952ff4320c",
+    "semantic_hash": ""
+  },
+  "vivordo_health/lib/src/services/notification_service.dart": {
+    "mtime": 1779485071.276787,
+    "ast_hash": "5d0e0dc2595327f8b8a83ddc74f02152",
+    "semantic_hash": "5d0e0dc2595327f8b8a83ddc74f02152"
+  },
+  "vivordo_health/lib/src/services/panda_recommendations.dart": {
+    "mtime": 1779485071.276787,
+    "ast_hash": "4ce3d0df56701467b09365d370b8c18c",
+    "semantic_hash": "4ce3d0df56701467b09365d370b8c18c"
+  },
+  "vivordo_health/lib/src/services/panda_types.dart": {
+    "mtime": 1781915948.5557926,
+    "ast_hash": "0583ca752194e8bf293a25c741d6da18",
+    "semantic_hash": "0583ca752194e8bf293a25c741d6da18"
+  },
+  "vivordo_health/lib/src/services/recommendation_engine.dart": {
+    "mtime": 1782036186.1887088,
+    "ast_hash": "1f5203972fcd94a08034540ff79d3dc2",
+    "semantic_hash": ""
+  },
+  "vivordo_health/lib/src/services/stress_score_service.dart": {
+    "mtime": 1781832067.2999196,
+    "ast_hash": "f3f01caac85844b093697d1b4f47e17b",
+    "semantic_hash": "f3f01caac85844b093697d1b4f47e17b"
+  },
+  "vivordo_health/lib/src/services/user_service.dart": {
+    "mtime": 1781832067.3010967,
+    "ast_hash": "2e2c09d82dcb36420fe972888327a296",
+    "semantic_hash": "2e2c09d82dcb36420fe972888327a296"
+  },
+  "vivordo_health/lib/src/utils/ppg_algorithm.dart": {
+    "mtime": 1781832062.3189335,
+    "ast_hash": "390f685f4e71b7549f0ca28016da7f46",
+    "semantic_hash": "390f685f4e71b7549f0ca28016da7f46"
+  },
+  "vivordo_health/lib/src/utils/snackbar.dart": {
+    "mtime": 1779485071.277788,
+    "ast_hash": "f5f25148b5ee7e07aeaebc13125f0a6c",
+    "semantic_hash": "f5f25148b5ee7e07aeaebc13125f0a6c"
+  },
+  "vivordo_health/functions/.eslintrc.js": {
+    "mtime": 1781832282.6954494,
+    "ast_hash": "5b11b8fc30f385f56bfab1ff9afce59c",
+    "semantic_hash": "5b11b8fc30f385f56bfab1ff9afce59c"
+  },
+  "vivordo_health/functions/index.js": {
+    "mtime": 1781901630.5832906,
+    "ast_hash": "25c1147393ea078a9731837426f20e0f",
+    "semantic_hash": "25c1147393ea078a9731837426f20e0f"
+  },
+  "vivordo_health/functions/package.json": {
+    "mtime": 1781832067.2878911,
+    "ast_hash": "d3424b6e378c2a08e9e764a31641bc84",
+    "semantic_hash": "d3424b6e378c2a08e9e764a31641bc84"
+  },
+  "vivordo_health/functions/scripts/backfill_insights.js": {
+    "mtime": 1782035176.1148832,
+    "ast_hash": "56617de0311d65e02b847630d593a334",
+    "semantic_hash": "56617de0311d65e02b847630d593a334"
+  }
+}
