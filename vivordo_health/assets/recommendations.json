@@ -1,0 +1,426 @@
+{
+  "_comment": "Panda recommendation catalog. Edit freely — no code changes needed.",
+  "_version": "1.1.0",
+  "_schema": {
+    "id": "unique string key (never change once shipped)",
+    "category": "music | breathing | movement | sleep | focus | social | nutrition | journal",
+    "title": "Short display title",
+    "subtitle": "One-line description shown on the card",
+    "emoji": "Single emoji",
+    "tags": ["keywords matched against session slots, journal mood, and user goals"],
+    "deepLink": "URL or null",
+    "durationLabel": "e.g. '5 min' or null",
+    "intensity": "low | medium | high | null"
+  },
+  "recommendations": [
+
+
+
+    {
+      "id": "music_calm_focus",
+      "category": "music",
+      "title": "Deep Focus",
+      "subtitle": "Spotify · Lo-fi beats for concentration without distraction",
+      "emoji": "🎵",
+      "tags": ["work", "deadline", "focus", "study", "anxious", "stressed", "overwhelmed", "plan my day", "drains", "mentally drained", "patterns"],
+      "deepLink": "https://open.spotify.com/playlist/37i9dQZF1DWZeKCadgRdKQ",
+      "durationLabel": "∞ playlist",
+      "intensity": null
+    },
+    {
+      "id": "music_stress_relief",
+      "category": "music",
+      "title": "Stress Relief",
+      "subtitle": "Spotify · Calm, soothing tracks to lower cortisol",
+      "emoji": "🎶",
+      "tags": ["stressed", "anxious", "overwhelmed", "tension", "high", "work", "burnout", "risk of burnout", "what does my stress mean", "causing my stress"],
+      "deepLink": "https://open.spotify.com/playlist/37i9dQZF1DX3Ogo9pFvBkY",
+      "durationLabel": "∞ playlist",
+      "intensity": null
+    },
+    {
+      "id": "music_sleep",
+      "category": "music",
+      "title": "Sleep",
+      "subtitle": "Spotify · Gentle ambient sounds for drifting off",
+      "emoji": "🌙",
+      "tags": ["sleep", "insomnia", "tired", "exhausted", "night", "wind-down", "recover", "recovery"],
+      "deepLink": "https://open.spotify.com/playlist/37i9dQZF1DWZd79rJ6a7lp",
+      "durationLabel": "∞ playlist",
+      "intensity": null
+    },
+    {
+      "id": "music_post_workout",
+      "category": "music",
+      "title": "Cool Down",
+      "subtitle": "Spotify · Mellow tracks to recover after exercise",
+      "emoji": "🏃",
+      "tags": ["workout", "gym", "exercise", "run", "post-workout", "recovery", "recover fastest", "energy"],
+      "deepLink": "https://open.spotify.com/playlist/37i9dQZF1DX8Sz1gsYZdwj",
+      "durationLabel": "∞ playlist",
+      "intensity": null
+    },
+    {
+      "id": "music_energy_boost",
+      "category": "music",
+      "title": "Energy Boost",
+      "subtitle": "Spotify · Upbeat tracks to lift your mood and energy",
+      "emoji": "⚡",
+      "tags": ["tired", "low energy", "sad", "demotivated", "morning", "commute", "energy", "drains", "typical day", "plan my day"],
+      "deepLink": "https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0",
+      "durationLabel": "∞ playlist",
+      "intensity": null
+    },
+    {
+      "id": "music_social_anxiety",
+      "category": "music",
+      "title": "Calm Confidence",
+      "subtitle": "Spotify · Grounding tracks before social situations",
+      "emoji": "🤝",
+      "tags": ["social", "anxious", "nervous", "presentation", "meeting", "shy", "reach out", "connect", "people", "plans and people"],
+      "deepLink": "https://open.spotify.com/playlist/37i9dQZF1DX1s9knjP51Oa",
+      "durationLabel": "∞ playlist",
+      "intensity": null
+    },
+
+
+
+    {
+      "id": "breathe_box",
+      "category": "breathing",
+      "title": "Box Breathing",
+      "subtitle": "Inhale 4s · Hold 4s · Exhale 4s · Hold 4s — repeat 4×",
+      "emoji": "⬜",
+      "tags": ["anxious", "stressed", "panic", "overwhelmed", "work", "deadline", "high", "burnout", "what should I do", "causing my stress"],
+      "deepLink": null,
+      "durationLabel": "4 min",
+      "intensity": "low"
+    },
+    {
+      "id": "breathe_478",
+      "category": "breathing",
+      "title": "4-7-8 Breathing",
+      "subtitle": "Inhale 4s · Hold 7s · Exhale 8s — powerful for sleep onset",
+      "emoji": "💨",
+      "tags": ["sleep", "insomnia", "anxious", "racing thoughts", "tired", "night", "recover", "wind-down", "recovery"],
+      "deepLink": null,
+      "durationLabel": "3 min",
+      "intensity": "low"
+    },
+    {
+      "id": "breathe_physiological_sigh",
+      "category": "breathing",
+      "title": "Physiological Sigh",
+      "subtitle": "Double inhale through nose, long exhale — instant calm",
+      "emoji": "😮‍💨",
+      "tags": ["stressed", "high", "panic", "acute", "sudden", "meeting", "exam", "overwhelmed", "burnout", "handle plans"],
+      "deepLink": null,
+      "durationLabel": "30 sec",
+      "intensity": "low"
+    },
+    {
+      "id": "breathe_diaphragmatic",
+      "category": "breathing",
+      "title": "Belly Breathing",
+      "subtitle": "Deep diaphragmatic breathing to activate the parasympathetic system",
+      "emoji": "🫁",
+      "tags": ["stressed", "tension", "headache", "tight chest", "anxious", "medium", "recover", "recovery", "drains"],
+      "deepLink": "https://www.youtube.com/watch?v=tybOi4hjZFQ",
+      "durationLabel": "5 min",
+      "intensity": "low"
+    },
+    {
+      "id": "breathe_wim_hof",
+      "category": "breathing",
+      "title": "Energising Breath",
+      "subtitle": "Wim Hof-style breathing to boost alertness and energy",
+      "emoji": "🔥",
+      "tags": ["tired", "low energy", "morning", "demotivated", "exercise", "workout", "energy", "typical day", "plan my day"],
+      "deepLink": "https://www.youtube.com/watch?v=tybOi4hjZFQ",
+      "durationLabel": "10 min",
+      "intensity": "medium"
+    },
+    {
+      "id": "breathe_mindful_transition",
+      "category": "breathing",
+      "title": "Mindful Transition",
+      "subtitle": "3 deep breaths between tasks to reset and re-centre your focus",
+      "emoji": "🔄",
+      "tags": ["transition", "between tasks", "plan my day", "typical day", "handle plans", "expectations", "mentally drained", "drains", "overwhelmed"],
+      "deepLink": null,
+      "durationLabel": "1 min",
+      "intensity": "low"
+    },
+
+
+
+    {
+      "id": "move_desk_stretch",
+      "category": "movement",
+      "title": "Desk Stretch Routine",
+      "subtitle": "Neck, shoulders, wrists — perfect for post-work tension",
+      "emoji": "🙆",
+      "tags": ["work", "desk", "tension", "headache", "tight", "sedentary", "sitting", "typical day", "drains", "mentally drained"],
+      "deepLink": "https://www.youtube.com/watch?v=M-8FvC3GD8c",
+      "durationLabel": "7 min",
+      "intensity": "low"
+    },
+    {
+      "id": "move_walk",
+      "category": "movement",
+      "title": "10-Minute Walk",
+      "subtitle": "Even a short walk outside significantly reduces cortisol",
+      "emoji": "🚶",
+      "tags": ["stressed", "anxious", "overwhelmed", "work", "deadline", "restless", "medium", "burnout", "what should I do", "plan my day", "causing my stress", "recover", "energy"],
+      "deepLink": null,
+      "durationLabel": "10 min",
+      "intensity": "low"
+    },
+    {
+      "id": "move_yoga_bedtime",
+      "category": "movement",
+      "title": "Bedtime Yoga",
+      "subtitle": "10-min gentle yoga sequence to prepare your body for sleep",
+      "emoji": "🧘",
+      "tags": ["sleep", "insomnia", "tired", "night", "wind-down", "restless", "tension", "recover", "recovery"],
+      "deepLink": "https://www.youtube.com/watch?v=BiWDsfZ3zbo",
+      "durationLabel": "10 min",
+      "intensity": "low"
+    },
+    {
+      "id": "move_hiit",
+      "category": "movement",
+      "title": "Quick HIIT",
+      "subtitle": "High-intensity interval to burn off stress hormones fast",
+      "emoji": "💪",
+      "tags": ["frustrated", "angry", "restless", "high energy", "stressed", "workout", "energy", "drains"],
+      "deepLink": "https://www.youtube.com/watch?v=ml6cT4AZdqI",
+      "durationLabel": "15 min",
+      "intensity": "high"
+    },
+    {
+      "id": "move_cold_water",
+      "category": "movement",
+      "title": "Cold Water Splash",
+      "subtitle": "Cold water on face/wrists triggers the dive reflex, slowing heart rate",
+      "emoji": "💧",
+      "tags": ["panic", "acute", "high", "overwhelmed", "heart rate", "anxious", "burnout", "recover fastest"],
+      "deepLink": null,
+      "durationLabel": "1 min",
+      "intensity": "low"
+    },
+    {
+      "id": "move_progressive_relaxation",
+      "category": "movement",
+      "title": "Progressive Muscle Relaxation",
+      "subtitle": "Tense and release each muscle group — great for physical tension",
+      "emoji": "🏋️",
+      "tags": ["tension", "tight", "headache", "physical", "stressed", "medium", "night", "recover", "recovery", "drains"],
+      "deepLink": "https://www.youtube.com/watch?v=clqZP-QGe2k",
+      "durationLabel": "12 min",
+      "intensity": "low"
+    },
+
+
+
+    {
+      "id": "sleep_wind_down",
+      "category": "sleep",
+      "title": "Wind-Down Routine",
+      "subtitle": "Dim lights 1hr before bed, avoid screens, do light stretching",
+      "emoji": "🌙",
+      "tags": ["sleep", "insomnia", "tired", "night", "low sleep quality", "exhausted", "recover", "recovery", "typical day", "plan my day"],
+      "deepLink": null,
+      "durationLabel": "60 min before bed",
+      "intensity": "low"
+    },
+    {
+      "id": "sleep_sleep_cast",
+      "category": "sleep",
+      "title": "Sleep Cast",
+      "subtitle": "Headspace: spoken-word sleep stories to quiet a busy mind",
+      "emoji": "📖",
+      "tags": ["sleep", "insomnia", "racing thoughts", "anxious", "night", "stressed", "recover", "mentally drained"],
+      "deepLink": "https://www.headspace.com/sleep/sleep-casts",
+      "durationLabel": "20-45 min",
+      "intensity": "low"
+    },
+    {
+      "id": "sleep_caffeine_tip",
+      "category": "sleep",
+      "title": "Caffeine Cut-Off",
+      "subtitle": "Caffeine has a 6hr half-life — try stopping intake by 2 PM",
+      "emoji": "☕",
+      "tags": ["caffeine", "sleep", "insomnia", "coffee", "tired", "night", "patterns", "typical day", "energy"],
+      "deepLink": null,
+      "durationLabel": "daily habit",
+      "intensity": "low"
+    },
+
+
+
+    {
+      "id": "focus_pomodoro",
+      "category": "focus",
+      "title": "Pomodoro Technique",
+      "subtitle": "25 min focused work · 5 min break — reduces deadline stress",
+      "emoji": "🍅",
+      "tags": ["work", "deadline", "focus", "study", "overwhelmed", "distracted", "procrastination", "plan my day", "expectations", "typical day", "drains"],
+      "deepLink": "https://pomofocus.io",
+      "durationLabel": "25+5 min cycles",
+      "intensity": "medium"
+    },
+    {
+      "id": "focus_brain_dump",
+      "category": "focus",
+      "title": "Brain Dump",
+      "subtitle": "Write down every open task for 5 min — clears working memory",
+      "emoji": "📝",
+      "tags": ["overwhelmed", "work", "deadline", "stressed", "racing thoughts", "anxious", "plan my day", "expectations", "handle plans", "what should I do"],
+      "deepLink": null,
+      "durationLabel": "5 min",
+      "intensity": "low"
+    },
+    {
+      "id": "focus_two_minute",
+      "category": "focus",
+      "title": "2-Minute Rule",
+      "subtitle": "If it takes < 2 min, do it now — kills procrastination loops",
+      "emoji": "⏱️",
+      "tags": ["procrastination", "overwhelmed", "deadline", "work", "distracted", "plan my day", "handle plans", "expectations"],
+      "deepLink": null,
+      "durationLabel": "instant",
+      "intensity": "low"
+    },
+    {
+      "id": "focus_weekly_reset",
+      "category": "focus",
+      "title": "Weekly Reset",
+      "subtitle": "Review last week, set 3 priorities for the next — reduces overwhelm",
+      "emoji": "📋",
+      "tags": ["expectations", "plan my day", "set expectations", "this week", "handle plans", "patterns", "overwhelmed", "burnout", "work", "typical day"],
+      "deepLink": null,
+      "durationLabel": "15 min",
+      "intensity": "low"
+    },
+
+
+
+    {
+      "id": "social_reach_out",
+      "category": "social",
+      "title": "Reach Out to Someone",
+      "subtitle": "Even a 5-min text to a friend measurably boosts mood",
+      "emoji": "💬",
+      "tags": ["lonely", "isolated", "sad", "social", "low energy", "reach out", "connect", "people", "best way to reach out", "plans and people", "available"],
+      "deepLink": null,
+      "durationLabel": "5 min",
+      "intensity": "low"
+    },
+    {
+      "id": "social_boundary_script",
+      "category": "social",
+      "title": "Setting a Boundary",
+      "subtitle": "\"I can't take that on right now\" — a simple script to try",
+      "emoji": "🛡️",
+      "tags": ["social", "overwhelmed", "boundary", "work", "relationship", "frustrated", "expectations", "set expectations", "handle plans", "plans and people", "drains", "available"],
+      "deepLink": null,
+      "durationLabel": "script",
+      "intensity": "low"
+    },
+    {
+      "id": "social_battery_check",
+      "category": "social",
+      "title": "Social Battery Check",
+      "subtitle": "Rate your social energy 1–5 before committing to plans",
+      "emoji": "🔋",
+      "tags": ["social", "plans and people", "available", "connect", "handle plans", "better time to connect", "prioritize", "overwhelmed", "energy", "drains", "people"],
+      "deepLink": null,
+      "durationLabel": "1 min",
+      "intensity": "low"
+    },
+
+
+
+    {
+      "id": "nutrition_hydration",
+      "category": "nutrition",
+      "title": "Drink Water",
+      "subtitle": "Even mild dehydration worsens anxiety and concentration",
+      "emoji": "💧",
+      "tags": ["headache", "tired", "stressed", "focus", "work", "afternoon", "energy", "typical day", "drains"],
+      "deepLink": null,
+      "durationLabel": "now",
+      "intensity": "low"
+    },
+    {
+      "id": "nutrition_magnesium",
+      "category": "nutrition",
+      "title": "Magnesium-Rich Snack",
+      "subtitle": "Dark chocolate, almonds, or spinach — all help regulate cortisol",
+      "emoji": "🍫",
+      "tags": ["stressed", "anxious", "tension", "sleep", "medium", "high", "recover", "energy"],
+      "deepLink": null,
+      "durationLabel": "snack",
+      "intensity": "low"
+    },
+
+
+
+    {
+      "id": "journal_gratitude",
+      "category": "journal",
+      "title": "3 Good Things",
+      "subtitle": "Write down 3 things that went well today — powerful mood reset",
+      "emoji": "✨",
+      "tags": ["sad", "low energy", "stressed", "tired", "anxious", "demotivated", "patterns", "what does my stress mean", "typical day"],
+      "deepLink": null,
+      "durationLabel": "5 min",
+      "intensity": "low"
+    },
+    {
+      "id": "journal_stress_reframe",
+      "category": "journal",
+      "title": "Stress Reframe",
+      "subtitle": "Write: \"What's in my control here?\" — reduces rumination",
+      "emoji": "🔄",
+      "tags": ["stressed", "overwhelmed", "work", "deadline", "high", "racing thoughts", "causing my stress", "patterns", "what does my stress mean", "burnout"],
+      "deepLink": null,
+      "durationLabel": "5 min",
+      "intensity": "low"
+    },
+    {
+      "id": "journal_body_scan",
+      "category": "journal",
+      "title": "Body Scan Check-In",
+      "subtitle": "Notice where you're holding tension and name it — reduces it",
+      "emoji": "🧠",
+      "tags": ["tension", "tight", "physical", "stressed", "headache", "anxious", "overwhelmed", "drains", "recover"],
+      "deepLink": null,
+      "durationLabel": "3 min",
+      "intensity": "low"
+    },
+    {
+      "id": "journal_burnout_checkin",
+      "category": "journal",
+      "title": "Burnout Check-In",
+      "subtitle": "Score exhaustion, cynicism & efficacy — catch burnout early",
+      "emoji": "🔥",
+      "tags": ["burnout", "risk of burnout", "exhausted", "overwhelmed", "patterns", "causing my stress", "what does my stress mean", "drains", "mentally drained", "work"],
+      "deepLink": null,
+      "durationLabel": "5 min",
+      "intensity": "low"
+    },
+    {
+      "id": "journal_energy_audit",
+      "category": "journal",
+      "title": "Energy Audit",
+      "subtitle": "List what gave and drained energy today — spot fixable patterns",
+      "emoji": "📊",
+      "tags": ["energy", "drains", "typical day", "patterns", "what drains me", "recover fastest", "mentally drained", "low energy", "burnout", "plan my day"],
+      "deepLink": null,
+      "durationLabel": "5 min",
+      "intensity": "low"
+    }
+  ]
+}

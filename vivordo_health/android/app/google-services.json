@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "226030806435",
+    "project_id": "vivordo-health",
+    "storage_bucket": "vivordo-health.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226030806435:android:5ea4e7a9ff8cc3a6a36616",
+        "android_client_info": {
+          "package_name": "com.example.vivordo_health"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226030806435-51d18dlptiokmfejr5irqmjefq8han4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzmw4Bs7i5w9vO3PF4YARWo7Mx3-zcw1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226030806435-51d18dlptiokmfejr5irqmjefq8han4g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "226030806435-d4nqtstrlhtm1cltipnat2bpo5eqn0mj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.vivordoHealth"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
